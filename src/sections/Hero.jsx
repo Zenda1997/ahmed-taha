@@ -42,7 +42,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="./hero-bg.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -75,19 +75,19 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Senior Landscape Engineer (Construction & Maintenance)
+                Landscape Engineer (Construction & Maintenance)
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+              <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Transforming <span className="text-primary glow-text">outdoor</span>
                 <br />
-                experiences with
+                spaces into
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  living art.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
@@ -101,8 +101,14 @@ export const Hero = () => {
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton>
+                <a href="/Ahmed_Landscape Engineer_CV.pdf"
+                  download="Ahmed_Landscape Engineer_CV.pdf"
+                  className="flex items-center gap-2"
+                >
+
                 <Download className="w-5 h-5" />
                 Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
 
@@ -110,9 +116,9 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                // { icon: Github, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/ahmed-taha-376764235/" },
+                // { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -136,8 +142,8 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
-                  alt="Pedro Machado"
+                  src="./profile-photo.jpg"
+                  alt="Ahmed Taha"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
