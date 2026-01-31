@@ -3,26 +3,23 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
-    description:
-      "Writing maintainable, scalable code that stands the test of time.",
+    title: "Technical Skills",
+    description: "Autocade, Microsoft Excel, Word, Photoshop, Soil Analysis & Land Preparation, Fertilization & Plant Nutrition Management, Landscape Drawings & Project Specifications Review, Environmental Sustainability Practices.",
   },
   {
     icon: Rocket,
-    title: "Performance",
-    description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+    title: "Landscape Construction & Maintenance",
+    description: "Hardscape & Softscape Works Supervision, Irrigation Systems Installation & Maintenance, Turf Management & Planting Techniques, Preventive & Corrective Maintenance Planning, Site Supervision & Quality Assurance.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Nursery Management & Plant Production",
+    description: "Plant Propagation & Cultivation, Nursery Operations & Resource Planning, Pest & Disease Management.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
-    description:
-      "Staying ahead with the latest technologies and best practices.",
+    title: "Project Management",
+    description: "Landscape Project Planning & Execution, Budgeting, Cost Control & Resource Allocation, Coordination with Clients, Consultants.",
   },
 ];
 
@@ -34,64 +31,38 @@ export const About = () => {
           {/* Left Column */}
           <div className="space-y-8">
             <div className="animate-fade-in">
-              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                About Me
-              </span>
+              <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
-              <span className="font-serif italic font-normal text-white">
-                {" "}
-                one component at a time.
-              </span>
+            <h2 className="text-3xl md:text-4xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
+              Landscape Engineer,
+              <span className="font-serif italic font-normal text-white"> Construction & Maintenance.</span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                Motivated Landscape Engineer with a Bachelor’s degree in Agriculture (General Division – Al-Azhar University). Experienced in landscape construction, maintenance, and nursery management, with a proven role in delivering
+                large-scale projects such as The Crown Compound.
               </p>
-              <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
-              </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
-              </p>
+              <p>Passionate about developing sustainable green spaces and ensuring high-quality standards in both softscape and hardscape works.</p>
+              <p>Soft Skills: 
+Strong Leadership & Decision-Making, Communication & Team Collaboration, Problem Solving & Critical Thinking, Time Management & Multitasking.</p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-              <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
-              </p>
+              <p className="text-lg font-medium italic text-foreground">"My mission is to engineer outdoor spaces that are not just functional, but truly inspiring — landscapes that clients value and environments that sustain themselves."</p>
             </div>
           </div>
 
           {/* Right Column - Hilights */}
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, idx) => (
-              <div
-                key={idx}
-                className="glass p-6 rounded-2xl animate-fade-in"
-                style={{ animationDelay: `${(idx + 1) * 100}ms` }}
-              >
+              <div key={idx} className="glass p-6 rounded-2xl animate-fade-in" style={{ animationDelay: `${(idx + 1) * 100}ms` }}>
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 hover:bg-primary/20">
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {item.description}
-                </p>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
           </div>

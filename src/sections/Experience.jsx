@@ -1,38 +1,38 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "April 2023 — Present",
+    role: "Construction Department Manager & Nursery Department Manager",
+    company: "Khedma Palm Hills Development",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Key Responsibilities: Led and managed the full landscape construction works for The Crown Compound project.	Directed the nursery department to ensure supply of high-quality plants and materials for ongoing and future projects.	Coordinated with project managers, subcontractors, and site engineers to maintain timelines and quality standards. Provided technical guidance and daily reports on construction progress and nursery operations.",
+    technologies: [""],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2022 — March 2023",
+    role: "Landscape Engineer – Construction & Maintenance Department",
+    company: "Green Touch Company",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Supervised landscape construction and maintenance activities across multiple sites. Coordinated softscape, irrigation, and hardscape works to ensure project quality. Assisted in preparing work schedules and monitoring progress. Provided technical support to site teams and reported directly to project managers.",
+    technologies: [""],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "Feb 2019 — Apr 2022",
+    role: "Landscape Engineer",
+    company: "Hamza Agricultural Company",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      "Worked on landscape construction and maintenance projects across multiple sites.	Supervised softscape works, including planting, turfing, and irrigation systems.	Assisted in nursery management and plant production to support ongoing projects.	Coordinated with site teams and ensured adherence to project specifications and timelines.",
+    technologies: [""],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    period: "Feb 2018 — Sep 2018",
+    role: "Landscape Maintenance Engineer",
+    company: "El Sewedy Landscape Company",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Supervised landscape maintenance operations including irrigation, pruning, fertilization, and turf care. Monitored site conditions and ensured adherence to maintenance schedules. Coordinated with teams to deliver high-quality green space management.",
+    technologies: [""],
     current: false,
   },
 ];
@@ -98,7 +98,7 @@ export const Experience = () => {
                 <div
                   className={`pl-8 md:pl-0 ${
                     idx % 2 === 0
-                      ? "md:pr-16 md:text-right"
+                      ? "md:pr-16 md:text-left"
                       : "md:col-start-2 md:pl-16"
                   }`}
                 >
