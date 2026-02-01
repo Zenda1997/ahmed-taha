@@ -45,12 +45,13 @@ export const About = () => {
                 large-scale projects such as The Crown Compound.
               </p>
               <p>Passionate about developing sustainable green spaces and ensuring high-quality standards in both softscape and hardscape works.</p>
-              <p>Soft Skills: 
-Strong Leadership & Decision-Making, Communication & Team Collaboration, Problem Solving & Critical Thinking, Time Management & Multitasking.</p>
+              <p>Soft Skills: Strong Leadership & Decision-Making, Communication & Team Collaboration, Problem Solving & Critical Thinking, Time Management & Multitasking.</p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
-              <p className="text-lg font-medium italic text-foreground">"My mission is to engineer outdoor spaces that are not just functional, but truly inspiring — landscapes that clients value and environments that sustain themselves."</p>
+              <p className="text-lg font-medium italic text-foreground">
+                "My mission is to engineer outdoor spaces that are not just functional, but truly inspiring — landscapes that clients value and environments that sustain themselves."
+              </p>
             </div>
           </div>
 
