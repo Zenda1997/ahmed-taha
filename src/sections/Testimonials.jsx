@@ -127,7 +127,7 @@ export const Testimonials = () => {
              
 
               <div className="flex items-center gap-4">
-                <Swiper
+                <Swiper 
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -145,28 +145,28 @@ export const Testimonials = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img src="./Ahmed-Taha-CV (2).jpeg" />
         </SwiperSlide>
       </Swiper>
                
