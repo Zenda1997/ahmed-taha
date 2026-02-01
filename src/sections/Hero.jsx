@@ -11,8 +11,6 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "Autocade",
-  "Microsoft Excel",
-  "Photoshop",
   "Soil Analysis ",
   "Land Preparation",
   "Fertilization",
@@ -21,11 +19,7 @@ const skills = [
   "Project Specifications Review",
   " Environmental Sustainability Practices ",
   "Hardscape",
-  "Softscape Works Supervision",
-  "Irrigation Systems Installation",
-  "Maintenance",
-  "Turf Management",
-  "Planting Techniques",
+  
 ];
 
 export const Hero = () => {
@@ -74,9 +68,9 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Transforming <span className="text-primary glow-text">outdoor</span>
+                Engineering <span className="text-primary glow-text">Serenity,</span>
                 <br />
-                spaces into
+                Designing Life.
                 <br />
                 <span className="font-serif italic font-normal text-white">
                   living art.
