@@ -70,12 +70,7 @@ export const Testimonials = () => {
                     <SwiperSlide>
                       <img src="./h1.jpg" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <img src="./h2.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img src="./h3.jpg" />
-                    </SwiperSlide>
+                    
                     <SwiperSlide>
                       <img src="./h4.jpg" />
                     </SwiperSlide>

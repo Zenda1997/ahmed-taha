@@ -67,7 +67,7 @@ export const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-6">
-              <h1 className="text-3xl  md:text-4xl lg:text-4xl font-bold leading-tight animate-fade-in animation-delay-100">
+              <h1 className="text-2xl  md:text-4xl lg:text-4xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Where Seasoned <span className="text-primary glow-text">Experience</span>
                 <br />
                 Meets Uncompromising Quality.
@@ -76,8 +76,8 @@ export const Hero = () => {
                   living art.
                 </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Ahmed Taha — a  Senior Landscape Engineer (Construction & Maintenance)
+              <p className="text-sm text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+                Hi, I'm Ahmed Taha — a <span className="text-primary glow-text">Project Manager</span> 
               </p>
             </div>
 
@@ -100,7 +100,7 @@ export const Hero = () => {
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-              <span className="text-sm text-muted-foreground">Follow me: </span>
+              <span className="text-lg text-muted-foreground">Follow me: </span>
               {[
                 // { icon: Github, href: "#" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/ahmed-taha-376764235/" },
