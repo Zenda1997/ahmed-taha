@@ -8,8 +8,8 @@ const socialLinks = [
 
 const footerLinks = [
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
+  { href: "#testimonials", label: "Projects" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -23,7 +23,7 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-            Ahmed Taha / <span className="text-primary"> Senior Landscape Engineer .</span>
+            Ahmed Taha <span className="text-primary block text-lg"> Landscape Engineer .</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
               © {currentYear} Mohamed Ali (zenda).

@@ -59,31 +59,31 @@ export const Hero = () => {
           {/* Left Column - Text Content */}
           <div className="space-y-8">
             <div className="animate-fade-in">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-lg text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                 Landscape Engineer 
               </span>
             </div>
 
             {/* Headline */}
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Engineering <span className="text-primary glow-text">Serenity,</span>
+            <div className="space-y-6">
+              <h1 className="text-3xl  md:text-4xl lg:text-4xl font-bold leading-tight animate-fade-in animation-delay-100">
+                Where Seasoned <span className="text-primary glow-text">Experience</span>
                 <br />
-                Designing Life.
+                Meets Uncompromising Quality.
                 <br />
-                <span className="font-serif italic font-normal text-white">
+                <span className=" block mt-2 font-serif italic font-normal text-white">
                   living art.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Ahmed Taha — a  Senior Landscape Engineer
+                Hi, I'm Ahmed Taha — a  Senior Landscape Engineer (Construction & Maintenance)
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton>

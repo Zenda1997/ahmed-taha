@@ -4,9 +4,10 @@ import { useEffect, useState } from "react";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
+  // { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "My Work" },
+  { href: "#testimonials", label: "Projects" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -32,9 +33,9 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-xl font-bold tracking-tight hover:text-primary"
+          className="text-xl  font-bold tracking-tight hover:text-primary"
         >
-          Ahmed Taha<span className="text-primary">.</span>
+          Ahmed Taha<span className="text-primary text-lg block"> Landscape Engineer.</span>
         </a>
 
         {/* Desktop Nav */}
@@ -54,7 +55,7 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} size="sm">Contact Me</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,7 +82,10 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
+            <Button onClick={() => {
+  setIsMobileMenuOpen(false); // الأمر الأول: قفل المنيو
+  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); // الأمر الثاني: السكرول
+}}>
               Contact Me
             </Button>
           </div>
