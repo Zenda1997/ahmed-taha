@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 
 export const Testimonials = () => {
   return (
@@ -49,6 +49,10 @@ export const Testimonials = () => {
               <div className="glass p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex items-center gap-4">
                   <Swiper
+                    autoplay={{
+                      delay: 2200,
+                      disableOnInteraction: false,
+                    }}
                     initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
@@ -63,7 +67,7 @@ export const Testimonials = () => {
                     }}
                     loop={true}
                     pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     className="mySwiper">
                     <SwiperSlide>
                       <img src="./h1 copy.jpg" />
@@ -112,6 +116,10 @@ export const Testimonials = () => {
               <div className="glass p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex items-center gap-4">
                   <Swiper
+                    autoplay={{
+                      delay: 2300,
+                      disableOnInteraction: false,
+                    }}
                     initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
@@ -126,12 +134,12 @@ export const Testimonials = () => {
                     }}
                     loop={true}
                     pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     className="mySwiper">
                     <SwiperSlide>
                       <img src="./h18.jpg" />
                     </SwiperSlide>
-                   
+
                     <SwiperSlide>
                       <img src="./h15.jpg" />
                     </SwiperSlide>
@@ -156,7 +164,7 @@ export const Testimonials = () => {
                     <SwiperSlide>
                       <img src="./h22.jpg" />
                     </SwiperSlide>
-                     <SwiperSlide>
+                    <SwiperSlide>
                       <img src="./h13.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -178,6 +186,10 @@ export const Testimonials = () => {
               <div className="glass  p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex mb-20 items-center gap-4">
                   <Swiper
+                    autoplay={{
+                      delay: 2400,
+                      disableOnInteraction: false,
+                    }}
                     initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
@@ -192,7 +204,7 @@ export const Testimonials = () => {
                     }}
                     loop={true}
                     pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     className="mySwiper">
                     <SwiperSlide>
                       <img src="./w10.jpg" />
@@ -225,6 +237,10 @@ export const Testimonials = () => {
                   </div>
                 </div>
                 <Swiper
+                  autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
                   initialSlide={0}
                   effect={"coverflow"}
                   grabCursor={true}
@@ -239,7 +255,7 @@ export const Testimonials = () => {
                   }}
                   loop={true}
                   pagination={true}
-                  modules={[EffectCoverflow, Pagination]}
+                  modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                   className="mySwiper">
                   <SwiperSlide>
                     <img src="./w1.jpg" />
