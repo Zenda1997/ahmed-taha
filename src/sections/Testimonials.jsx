@@ -49,6 +49,7 @@ export const Testimonials = () => {
               <div className="glass p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex items-center gap-4">
                   <Swiper
+                    initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
@@ -70,7 +71,7 @@ export const Testimonials = () => {
                     <SwiperSlide>
                       <img src="./h1.jpg" />
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                       <img src="./h4.jpg" />
                     </SwiperSlide>
@@ -111,6 +112,7 @@ export const Testimonials = () => {
               <div className="glass p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex items-center gap-4">
                   <Swiper
+                    initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
@@ -127,14 +129,9 @@ export const Testimonials = () => {
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper">
                     <SwiperSlide>
-                      <img src="./h12.jpg" />
+                      <img src="./h18.jpg" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <img src="./h13.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img src="./h14.jpg" />
-                    </SwiperSlide>
+                   
                     <SwiperSlide>
                       <img src="./h15.jpg" />
                     </SwiperSlide>
@@ -145,7 +142,7 @@ export const Testimonials = () => {
                       <img src="./h17.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <img src="./h18.jpg" />
+                      <img src="./h12.jpg" />
                     </SwiperSlide>
                     <SwiperSlide>
                       <img src="./h19.jpg" />
@@ -158,6 +155,12 @@ export const Testimonials = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                       <img src="./h22.jpg" />
+                    </SwiperSlide>
+                     <SwiperSlide>
+                      <img src="./h13.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <img src="./h14.jpg" />
                     </SwiperSlide>
                   </Swiper>
 
@@ -175,6 +178,7 @@ export const Testimonials = () => {
               <div className="glass  p-2 rounded-3xl md:p-3 glow-border animate-fade-in animation-delay-200">
                 <div className="flex mb-20 items-center gap-4">
                   <Swiper
+                    initialSlide={0}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
@@ -221,6 +225,7 @@ export const Testimonials = () => {
                   </div>
                 </div>
                 <Swiper
+                  initialSlide={0}
                   effect={"coverflow"}
                   grabCursor={true}
                   centeredSlides={true}
