@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl  font-bold tracking-tight hover:text-primary"
         >
-          Ahmed Taha<span className="text-primary text-lg block"> Landscape Engineer.</span>
+          Ahmed Taha<span className="text-primary text-lg block">Project Manager Landscape Engineer</span>
         </a>
 
         {/* Desktop Nav */}
